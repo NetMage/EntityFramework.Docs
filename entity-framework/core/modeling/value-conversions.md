@@ -133,7 +133,7 @@ Then the enum values will be saved as strings in the database without any furthe
 
 ## Limitations
 
-There are a few known current limitations of the value convertion system:
+There are a few known current limitations of the value conversion system:
 * As noted above, `null` cannot be converted.
 * There is currently no way to spread a conversion of one property to multiple columns or vice-versa.
 * Use of value conversions may impact the ability of EF Core to translate expressions to SQL. A warning will be logged for such cases.
